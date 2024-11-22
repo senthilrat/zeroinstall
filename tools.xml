@@ -4,10 +4,10 @@
   <name>Process Explorer</name>
   <summary xml:lang="en">Sysinternals Process Explorer</summary>
   <category>Tools</category>
-  <implementation arch="Windows-*" version="16.43" id="sha256new_D4KFKJBGOR6QHWG5U6YA3EVWPAPZX4DA6NCKUDMKQFFBVTUNP7XQ">
+  <implementation arch="Windows-*" version="16.43" id="sha256new_TKXSHPM6F7E3BYBK5GKDHO3Y7CATCBLUSVFUYZT6MNO4G3GBM7FA">
     <command name="run" path="procexp.exe" />
     <command name="Procmon64" path="Procmon64.exe" />
-    <manifest-digest sha256new="D4KFKJBGOR6QHWG5U6YA3EVWPAPZX4DA6NCKUDMKQFFBVTUNP7XQ" />
+    <manifest-digest sha256new="TKXSHPM6F7E3BYBK5GKDHO3Y7CATCBLUSVFUYZT6MNO4G3GBM7FA" />
     <archive href="https://github.com/senthilrat/zeroinstall/archive/refs/heads/main.zip" size="4190882" type="application/zip" extract="zeroinstall-main" />
   </implementation>
   <entry-point command="run" binary-name="procexp" />

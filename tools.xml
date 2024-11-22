@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/senthilrat/zeroinstall/refs/heads/main/tools.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>Sysinternals Procmon</name>
-  <summary xml:lang="en">Process Monitor</summary>
-  <category>System</category>
-  <implementation arch="Windows-x86_64" version="3.85" id="sha256new_BTREN4XLSOOGO4OATSN3EKO2VVSLZGZVXPZMXT7RXNXCAQCYGSJQ">
-    <command name="run" path="Procmon64.exe" />
-    <command name="procexp" path="procexp.exe" />
-    <manifest-digest sha256new="BTREN4XLSOOGO4OATSN3EKO2VVSLZGZVXPZMXT7RXNXCAQCYGSJQ" />
-    <archive href="https://github.com/senthilrat/zeroinstall/archive/refs/heads/main.zip" size="4188788" type="application/zip" extract="zeroinstall-main" />
+  <name>Process Explorer</name>
+  <summary xml:lang="en">Sysinternals Process Explorer</summary>
+  <category>Tools</category>
+  <implementation arch="Windows-*" version="16.43" id="sha256new_D4KFKJBGOR6QHWG5U6YA3EVWPAPZX4DA6NCKUDMKQFFBVTUNP7XQ">
+    <command name="run" path="procexp.exe" />
+    <command name="Procmon64" path="Procmon64.exe" />
+    <manifest-digest sha256new="D4KFKJBGOR6QHWG5U6YA3EVWPAPZX4DA6NCKUDMKQFFBVTUNP7XQ" />
+    <archive href="https://github.com/senthilrat/zeroinstall/archive/refs/heads/main.zip" size="4190882" type="application/zip" extract="zeroinstall-main" />
   </implementation>
-  <entry-point command="run" binary-name="Procmon64" />
-  <entry-point command="procexp" binary-name="procexp">
-    <name xml:lang="en">Process Explorer</name>
-    <summary xml:lang="en">Sysinternals Process Explorer</summary>
+  <entry-point command="run" binary-name="procexp" />
+  <entry-point command="Procmon64" binary-name="Procmon64">
+    <name xml:lang="en">Sysinternals Procmon</name>
+    <summary xml:lang="en">Process Monitor</summary>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJnQDStAAoJEIaH8txZyVYT2DwH/jnCuyxoXrNARLsgK8ojRkoHT0/u4wplZSrk5/rLClfiI+ewVaFs3yq2XFmyOpYm0BnUou0GDbZsIO4GWx46H/QcWNtJZYp1HWWZ4qUwSBnk5oy0OKQ7XP7/hwfz4KJhSVKqyHd1oUg0wPjkcmR2qBQ5MYrhZhcpfO5PLmOSUFwivPj5s58bzZQ519hzpnsuFQbneJ+rJEE2MiFrhG7trzyPCoDyKZZULW4NypFlgR709ayx1nngPtTydtP05MoivBusRefiifWotWjgn8WuVFTr/L9/4OtPEmGQN0Oy4EoWdAp7yRJ8LpvK5HGKwh/KXzb9cIIx0dA60hHdrjO9vyg=
+iQEcBAABAgAGBQJnQDejAAoJEIaH8txZyVYTfpMH/3geccJTPPt1eBvvP7JdVV4g3Qczb+i1IzBiHtoyMGlxERuOCZh80a3S67lexe/awstJ3cRhRBGqIGdOd9VGzf0G+SVAaKLg3X9oPMKEhlSEBWLFneTbmRiwXcR9i07QmEGBxjWWH60APOr1nMfcyDTWJZXAF5QtKVvgrUZLyI8AtSTWJAHXHm0VMxKEJWYkdWpPY5FOV2sek3Pkr8iGOPykrl3GPPyFSGVsvEn9KWGQ39qYA06jmTWtWm5AP2UKzTOu+zy92bFGibpULONCEC5KPAzBHjPShmw+/7vz/YQmQoL3Y7cY0OZCtd8qjwwLBhmEPTWPQTfYJejNAh1L1Co=
 
 -->
